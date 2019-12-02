@@ -9,13 +9,13 @@ public class TextFieldFrame extends JFrame
 {
     MyPanel mp;
     public TextFieldFrame(){
-        this.setTitle("이미지 버튼 연습");
+        this.setTitle("실습_4");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         mp = new MyPanel();
         this.add(mp);
 
-        this.setSize(300, 400);
+        this.setSize(280, 400);
         this.setVisible(true);
     }
 }
