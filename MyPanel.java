@@ -36,6 +36,16 @@ public class MyPanel extends JPanel
         
         JComboBox<String[]> mbSchoolYear = new JComboBox(items);
         this.add(mbSchoolYear);
+        
+        JButton mb = new JButton("추가");
+        this.add(mb);
+        
+        JButton mbClear = new JButton("Clear");
+        this.add(mbClear);
+        
+        JTextArea ta = new JTextArea(15,25);
+        JScrollPane jsp = new JScrollPane(ta);
+        this.add(jsp);
    }
 }
 
