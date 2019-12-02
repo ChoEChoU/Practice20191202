@@ -12,6 +12,16 @@ public class MyPanel extends JPanel
         this.add(mlName);
         JTextField mtfName = new JTextField(20);
         this.add(mtfName);
+        
+        JLabel mlDept = new JLabel("학과");
+        this.add(mlDept);
+        JTextField mtfDept = new JTextField(20);
+        this.add(mtfDept);
+        
+        JLabel mlAddress = new JLabel("이름");
+        this.add(mlAddress);
+        JTextField mtfAddress = new JTextField(20);
+        this.add(mtfAddress);
     }
 }
 
