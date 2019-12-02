@@ -52,7 +52,7 @@ public class MyPanel extends JPanel implements ActionListener
         mbClear.addActionListener(this);
         this.add(mbClear);
         
-        ta = new JTextArea(15,25);
+        ta = new JTextArea(10,24);
         JScrollPane jsp = new JScrollPane(ta);
         this.add(jsp);
     }
