@@ -2,10 +2,10 @@
 import javax.swing.*;
 import java.awt.event.*;
 /**
- * 여기에 MyPanel 클래스 설명을 작성하십시오.
+ * JPanel를 상속받고 ActionListener를 implements 받은 MyPanel
  * 
- * @author (작성자 이름) 
- * @version (버전번호나 날짜)
+ * @author (2018315017 임민택, 2018315010 박채린, 2018315058 오타오아키) 
+ * @version (2019.12.02 실습_4)
  */
 public class MyPanel extends JPanel implements ActionListener
 {

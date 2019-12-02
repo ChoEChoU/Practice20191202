@@ -1,9 +1,9 @@
 import javax.swing.*;
 /**
- * 여기에 TextFieldFrame 클래스 설명을 작성하십시오.
+ * mp를 붇인 JFrame을 상속받은 TextFieldFrame
  * 
- * @author (작성자 이름) 
- * @version (버전번호나 날짜)
+ * @author (2018315017 임민택, 2018315010 박채린, 2018315058 오타오아키) 
+ * @version (2019.12.02 실습_4)
  */
 public class TextFieldFrame extends JFrame
 {
