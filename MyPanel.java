@@ -24,7 +24,19 @@ public class MyPanel extends JPanel
         JTextField mtfAddress = new JTextField(20);
         mtfAddress.setText("서울시..");
         this.add(mtfAddress);
-    }
+        
+        JLabel mlSchoolYear = new JLabel("학년");
+        this.add(mlSchoolYear);
+        
+        String[] items = new String[4];
+        items[0] = "1학년";
+        items[1] = "2학년";
+        items[2] = "3학년";
+        items[3] = "4학년";
+        
+        JComboBox<String[]> mbSchoolYear = new JComboBox(items);
+        this.add(mbSchoolYear);
+   }
 }
 
 
