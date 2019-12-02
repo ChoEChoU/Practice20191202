@@ -16,11 +16,13 @@ public class MyPanel extends JPanel
         JLabel mlDept = new JLabel("학과");
         this.add(mlDept);
         JTextField mtfDept = new JTextField(20);
+        mtfDept.setText("글로벌소프트웨어학과");
         this.add(mtfDept);
         
-        JLabel mlAddress = new JLabel("이름");
+        JLabel mlAddress = new JLabel("주소");
         this.add(mlAddress);
         JTextField mtfAddress = new JTextField(20);
+        mtfAddress.setText("서울시..");
         this.add(mtfAddress);
     }
 }
